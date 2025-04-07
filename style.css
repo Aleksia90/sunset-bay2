@@ -736,13 +736,6 @@ color: white;
     margin-right: 0;
     margin-bottom: 70px;
     position: fixed  
-  bottom: 0 
-  left: 0  
-  right: 0 
-  width: 100%   
-  z-index: 1000  
-  transform: none 
-  will-change: transform;
   }
 
   /* Второй блок (детали проекта) */
@@ -899,9 +892,13 @@ header {
   .contact-form {
     padding: 10px;
     margin-top: 0%;
-    position: sticky;  
-      bottom: 0;  
-      z-index: 50; 
+    bottom: 0 
+  left: 0  
+  right: 0 
+  width: 100%   
+  z-index: 1000  
+  transform: none 
+  will-change: transform;
   }
 
   .contact-form h2 {
