@@ -869,8 +869,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: start;
-
-
   }
 
   .hero-text h2 {
@@ -884,15 +882,18 @@ header {
   .highlight {
     font-size: 14px;
   }
+  
   #callbackForm {
     padding: 0;
     width: auto;
-
   }
 
   .contact-form {
     padding: 10px;
     margin-top: 0%;
+    position: sticky;  
+      bottom: 0;  
+      z-index: 50; 
   }
 
   .contact-form h2 {
@@ -901,7 +902,6 @@ header {
 
   .contact-form p {
     font-size: 18px;
-
   }
 
   input {
@@ -1024,9 +1024,8 @@ header {
   /* Восьмой блок (форма) */
   .custom-body {
     padding: 10px;
-
-   
   }
+  
 .contact-form{
   height: 50%;
 }
