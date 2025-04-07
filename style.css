@@ -9,7 +9,7 @@ body {
   background-image: url('img/sunset.png');
   background-repeat: no-repeat;
   background-size: cover;
-    height: 100vh;
+    height: 100dvh;
     background-position: 50%;
     color: white;
     text-align: left;
@@ -735,6 +735,14 @@ color: white;
     width: 100%;
     margin-right: 0;
     margin-bottom: 70px;
+    position: fixed  
+  bottom: 0 
+  left: 0  
+  right: 0 
+  width: 100%   
+  z-index: 1000  
+  transform: none 
+  will-change: transform;
   }
 
   /* Второй блок (детали проекта) */
