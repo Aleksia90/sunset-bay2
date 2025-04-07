@@ -9,7 +9,7 @@ body {
   background-image: url('img/sunset.png');
   background-repeat: no-repeat;
   background-size: cover;
-    height: 100dvh;
+    height: 100vh;
     background-position: 50%;
     color: white;
     text-align: left;
@@ -19,7 +19,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   background: rgba(0, 0, 0, 0.05);
   font-family: "Lora", serif;
 }
@@ -511,7 +510,6 @@ font-size: 48px;
 form {
   display: flex;
   flex-direction: column;
-
 }
 
 input, button {
@@ -519,14 +517,14 @@ input, button {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  
 }
+
 input {
   background: #0000;
   border: white 1px solid;
   color:rgba(255, 255, 255, 0.455);
-
 }
+
 button {
   background: #c69c8f;
   color: rgb(255, 255, 255);
@@ -534,9 +532,11 @@ button {
   padding: 18px;
   font-size: larger;
 }
+
 button:hover {
   background: #a57e6e;
 }
+
 .hdn {
 color: white;
 }
@@ -548,10 +548,12 @@ color: white;
   color: #b88c74;
   font-family: "Lora", serif;
 }
+
 .contact-section h2 {
   font-size: 34px;
   font-weight: bold;
 }
+
 .SElogo {
   height: 40px;
   justify-content: center;
@@ -609,8 +611,6 @@ color: white;
     flex-direction: column;
     padding: 20px;
   }
-
-
 
   .content h1 {
     font-size: 2.2rem;
@@ -727,6 +727,7 @@ color: white;
   .highlight {
     font-size: 18px;
   }
+  
 #callbackForm {
     padding: 0;
     width: auto;
@@ -892,7 +893,6 @@ header {
   .contact-form {
     padding: 10px;
     margin-top: 0%;
-    bottom: 0 ;
   }
 
   .contact-form h2 {
