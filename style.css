@@ -23,6 +23,7 @@ header {
   font-family: "Lora", serif;
 }
 
+
 .Slogo {
 height: 40px;
 margin-left: 45%;
@@ -50,8 +51,7 @@ margin-left: 45%;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    min-height: 100vh;
-    height: auto;
+    min-height: 100dvh;
 }
 
 .hero-text {
@@ -84,7 +84,6 @@ margin-bottom: 90px;
 
 .description {
   margin-left: 0%;
-
 }
 
 /* Форма */
@@ -103,7 +102,7 @@ margin-bottom: 90px;
     width: 380px;
     flex-direction: column;
     margin-right: 90px;
- margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .contact-form h2 {
@@ -163,6 +162,7 @@ input::placeholder {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
 .modal-content {
   background-color: white;
   padding: 20px;
@@ -174,6 +174,7 @@ input::placeholder {
   position: relative;
   color: black;
 }
+
 .close {
   color: black;
   position: absolute;
@@ -185,7 +186,6 @@ input::placeholder {
 }
 
 /* 2 блок */
-
 .project-details {
   background: linear-gradient(to bottom, #eadece, #fefcf9);
     padding: 30px;
@@ -195,7 +195,6 @@ input::placeholder {
     width: 80%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border: #be917c 1px solid;
-  
 }
 
 .head {
@@ -286,7 +285,6 @@ input::placeholder {
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-left: 0%;
-
   }
   
   button:hover {
@@ -510,6 +508,7 @@ font-size: 48px;
 form {
   display: flex;
   flex-direction: column;
+
 }
 
 input, button {
@@ -517,14 +516,14 @@ input, button {
   padding: 10px;
   border: none;
   border-radius: 5px;
+  
 }
-
 input {
   background: #0000;
   border: white 1px solid;
   color:rgba(255, 255, 255, 0.455);
-}
 
+}
 button {
   background: #c69c8f;
   color: rgb(255, 255, 255);
@@ -532,11 +531,9 @@ button {
   padding: 18px;
   font-size: larger;
 }
-
 button:hover {
   background: #a57e6e;
 }
-
 .hdn {
 color: white;
 }
@@ -548,12 +545,10 @@ color: white;
   color: #b88c74;
   font-family: "Lora", serif;
 }
-
 .contact-section h2 {
   font-size: 34px;
   font-weight: bold;
 }
-
 .SElogo {
   height: 40px;
   justify-content: center;
@@ -611,6 +606,8 @@ color: white;
     flex-direction: column;
     padding: 20px;
   }
+
+
 
   .content h1 {
     font-size: 2.2rem;
@@ -727,7 +724,6 @@ color: white;
   .highlight {
     font-size: 18px;
   }
-  
 #callbackForm {
     padding: 0;
     width: auto;
@@ -736,7 +732,6 @@ color: white;
     width: 100%;
     margin-right: 0;
     margin-bottom: 70px;
-    position: fixed  
   }
 
   /* Второй блок (детали проекта) */
@@ -884,16 +879,21 @@ header {
   .highlight {
     font-size: 14px;
   }
-  
+
   #callbackForm {
     padding: 0;
     width: auto;
   }
 
+/*НУЖНО ЭТО ПРОВЕРИТЬ*/
   .contact-form {
     padding: 10px;
     margin-top: 0%;
-  }
+    position: sticky;  
+    bottom: 0;  
+    z-index: 50;  
+    }  
+
 
   .contact-form h2 {
     font-size: 22px;
@@ -1023,8 +1023,9 @@ header {
   /* Восьмой блок (форма) */
   .custom-body {
     padding: 10px;
+
+   
   }
-  
 .contact-form{
   height: 50%;
 }
