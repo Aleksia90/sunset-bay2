@@ -865,6 +865,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: start;
+     display: fixed;
   }
 
   .hero-text h2 {
@@ -888,7 +889,6 @@ header {
   .contact-form {
     padding: 10px;
     margin-top: 0%;
-    display: fixed;
     }  
 
 
